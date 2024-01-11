@@ -12,7 +12,7 @@ pipeline {
 	stage('Build memomry details'){
                 steps{
                         sh '''
-                        echo "Memory    details"
+                        echo "Memory details"
                         free
 			'''
                 }
