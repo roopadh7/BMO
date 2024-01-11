@@ -4,7 +4,7 @@ pipeline {
 	stage('Buils system details'){
 		steps{
 			sh '''
-			echo "system details"
+			echo "system    details"
 			uname -a
 			'''
 		}
@@ -12,7 +12,7 @@ pipeline {
 	stage('Build memomry details'){
                 steps{
                         sh '''
-                        echo "Memory details"
+                        echo "Memory    details"
                         free
 			'''
                 }
@@ -20,7 +20,7 @@ pipeline {
 	stage('Build CPU details'){
                 steps{
                         sh '''
-                        echo "CPU    details"
+                        echo "CPU       details"
                         lscpu
 			'''
                 }
