@@ -3,21 +3,21 @@ pipeline
 	stages{
 	stage('Buils system details'){
 		steps{
-			sh ...
+			sh...
 			echo "system details"
 			uname -a
 		}
 }
 	stages('Build memomry details'){
                 steps{
-                        sh ...
+                        sh...
                         echo "Memory details"
                         free
                 }
 }
 	stages('Build CPU details'){
                 steps{
-                        sh ...
+                        sh...
                         echo "CPU details"
                         lscpu
                 }
