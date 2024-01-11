@@ -9,7 +9,7 @@ pipeline {
 			'''
 		}
 }
-	stages('Build memomry details'){
+	stage('Build memomry details'){
                 steps{
                         sh '''
                         echo "Memory details"
@@ -17,7 +17,7 @@ pipeline {
 			'''
                 }
 }
-	stages('Build CPU details'){
+	stage('Build CPU details'){
                 steps{
                         sh '''
                         echo "CPU details"
