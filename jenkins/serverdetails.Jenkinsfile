@@ -1,5 +1,5 @@
 pipeline {
-	agent any
+	agent slave2
 	stages{
 	stage('Buils system details'){
 		steps{
