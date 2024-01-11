@@ -1,4 +1,4 @@
-pipeline
+pipeline {
 	agent any
 	stages{
 	stage('Buils system details'){
@@ -24,5 +24,6 @@ pipeline
                         lscpu
 			'''
                 }
+}
 }
 }
